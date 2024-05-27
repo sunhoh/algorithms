@@ -3,7 +3,6 @@ const input = require('fs').readFileSync(path).toString().trim().split(' ').map(
 const [A,B] = input 
 
 // 일반 반복문
-
 function gcd(A,B){
   for(i=Math.min(A,B);i>=1;i--){
     if(A % i === 0 && B%i===0){
